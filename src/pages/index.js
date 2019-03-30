@@ -27,7 +27,7 @@ const IndexPage = () => (
       </a>
       .
     </p>
-    <p>if you wanna talk, you can reach me at dennishwei at gmail dot com.</p>
+    <p>if you wanna talk, defintely reach out! i'm available through plenty of places on the internet.</p>
     <p>
       <span role="img" aria-label="Whale">
         🐳 🐳 🐳
