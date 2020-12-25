@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "denniswei.io",
   "builds": [
     {
       "src": "package.json",

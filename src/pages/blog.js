@@ -20,7 +20,7 @@ class BlogHome extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <Link style={{ boxShadow: `none` }} to={"/blog/" + node.fields.slug}>
+              <Link style={{ boxShadow: `none` }} to={"/blog" + node.fields.slug}>
                 {title}
               </Link>
               <br></br>
@@ -51,7 +51,7 @@ class BlogHome extends React.Component {
         >
           <li>
             <Link to={"/"}>
-                ← Home 
+                ← Home
             </Link>
           </li>
         </ul>
