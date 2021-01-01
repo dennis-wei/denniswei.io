@@ -187,7 +187,8 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 112.5%/1.45em Space Mono, georgia, serif;
+  font-feature-settings: "liga" 0;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -206,10 +207,10 @@ body {
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
+  -moz-font-feature-settings: "kern", "liga" 0, "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga" 0, "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga" 0, "clig", "calt";
+  font-feature-settings: "kern", "liga" 0, "clig", "calt";
 }
 img {
   max-width: 100%;
