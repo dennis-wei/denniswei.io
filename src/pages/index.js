@@ -20,13 +20,8 @@ const IndexPage = () => (
       better navigate the complexity of atlassian products.
       prior to that, i studied cs and econ at columbia. during my time there, i
       worked on bloomberg's distrubed rdbms{" "}
-      <a href="https://github.com/bloomberg/comdb2">comdb2</a>, researched the
-      effectiveness of content surfacing through bayesian ml, and helped foster
-      entrepreneurship through{" "}
-      <a href="https://entrepreneurship.columbia.edu/aboutprofile/columbia-organization-of-rising-entrepreneurs-core/">
-        core
-      </a>
-      .
+      <a href="https://github.com/bloomberg/comdb2">comdb2</a> and researched the
+      effectiveness of content surfacing through bayesian ml.
     </p>
     <p>if you wanna talk, definitely reach out! you can find me on any of the following platforms.</p>
     <p>
