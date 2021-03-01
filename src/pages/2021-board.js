@@ -28,6 +28,13 @@ function BoardPage2021({data}) {
             fluid={data.jan.childImageSharp.fluid}
           />
         </div>
+        <div style={{ maxHeight: "100%" }}>
+          <Img
+            style={{ maxHeight: "600px" }}
+            imgStyle={{ objectFit: "contain" }}
+            fluid={data.feb.childImageSharp.fluid}
+          />
+        </div>
       </Carousel>
     </LayoutFull>
   )
@@ -41,7 +48,14 @@ export const query = graphql`
           ...GatsbyImageSharpFluid
         }
       }
-    }
+    },
+    feb: file(relativePath: { eq: "feb-2021.png" }) {
+      childImageSharp {
+        fluid(maxHeight: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
   }
 `
 
