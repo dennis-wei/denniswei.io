@@ -19,7 +19,7 @@ function BoardPage2021({data}) {
         showIndicators={true}
         autoPlay={false}
         showArrows={false}
-        selectedItem={0}
+        selectedItem={1}
       >
         <div style={{ maxHeight: "100%" }}>
           <Img
