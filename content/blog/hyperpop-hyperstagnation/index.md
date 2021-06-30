@@ -1,5 +1,5 @@
 ---
-title: Hyperpop Hyperstagnation
+title: Hyperpop hyperstagnation
 date: "2021-05-31"
 description: Hyperpop as a genre is plateauing, and I'm concerned
 ---

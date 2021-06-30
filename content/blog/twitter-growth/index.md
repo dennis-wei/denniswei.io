@@ -1,5 +1,5 @@
 ---
-title: In Defense of Twitter’s Poor Growth
+title: In defense of Twitter’s poor growth
 date: "2017-01-16"
 description: MAU, stagnancy, and options for Twitter
 ---
