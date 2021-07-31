@@ -19,7 +19,7 @@ function BoardPage2021({data}) {
         showIndicators={true}
         autoPlay={false}
         showArrows={false}
-        selectedItem={5}
+        selectedItem={6}
       >
         <div style={{ maxHeight: "100%" }}>
           <Img
@@ -61,6 +61,13 @@ function BoardPage2021({data}) {
             style={{ maxHeight: "600px" }}
             imgStyle={{ objectFit: "contain" }}
             fluid={data.jun.childImageSharp.fluid}
+          />
+        </div>
+        <div style={{ maxHeight: "100%" }}>
+          <Img
+            style={{ maxHeight: "600px" }}
+            imgStyle={{ objectFit: "contain" }}
+            fluid={data.jul.childImageSharp.fluid}
           />
         </div>
       </Carousel>
@@ -106,6 +113,13 @@ export const query = graphql`
       }
     },
     jun: file(relativePath: { eq: "jun-2021.png" }) {
+      childImageSharp {
+        fluid(maxHeight: 600) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    jul: file(relativePath: { eq: "jul-2021.png" }) {
       childImageSharp {
         fluid(maxHeight: 600) {
           ...GatsbyImageSharpFluid
