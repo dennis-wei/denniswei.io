@@ -35,6 +35,8 @@ const IndexPage = () => (
     <span>&nbsp;&nbsp;</span>
     <a href="https://www.goodreads.com/user/show/67778683-dennis">goodreads</a>
     <span>&nbsp;&nbsp;</span>
+    <a href="https://www.last.fm/user/d-wei">last.fm</a>
+    <span>&nbsp;&nbsp;</span>
     <a href="https://letterboxd.com/dwei/">letterboxd</a>
     <span>&nbsp;&nbsp;</span>
     <a href="https://twitter.com/weibackmachine">twitter</a>
